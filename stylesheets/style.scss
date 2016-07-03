@@ -1,0 +1,50 @@
+$colorFilete:#00ff00;
+body{
+	background: url('./../images/fondo4.jpg') no-repeat fixed;
+	background-size:100%;
+	
+	text-align:center;
+	border-color: $colorFilete;
+
+	.centro{
+		color:red;
+		@extends body;
+		margin-top: 5%;
+	}
+	.lrrss{
+		
+	}
+
+
+}
+li{
+	margin-bottom:12%;
+
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	margin-top:15px;
+	border-radius: 200px 200px 200px 200px;
+		
+}
+img:hover{
+	color: blue !important;
+}
+.imagen{
+	padding-top:21px;
+	
+}
+
+a{
+	color:white !important;
+}
+
+.pos1i{
+	margin-top:-13px;
+}
+
+.texto{
+	margin-top:5px;
+}
