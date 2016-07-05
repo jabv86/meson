@@ -5,7 +5,7 @@
   font-family: subtitle;
   src: url("./../fonts/sovereign.otf"); }
 body {
-  background: url("./../images/fondo.jpg") no-repeat fixed;
+  background: url("./../images/fondomain.jpg") no-repeat fixed;
   background-size: 100%;
   text-align: center;
   border-color: #3B2719; }
@@ -23,30 +23,8 @@ body {
     color: #3B2719;
     font-size: 50px;
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; }
+  body .caroimg {
+    margin: 0 auto;
+    height: 100%; }
 
-li {
-  margin-bottom: 12%; }
-
-img {
-  width: 80px;
-  height: 80px;
-  margin-top: 15px;
-  border-radius: 200px 200px 200px 200px; }
-
-img:hover {
-  color: blue !important; }
-
-.imagen {
-  padding-top: 21px; }
-
-a {
-  color: white !important; }
-
-.pos1i {
-  margin-top: -13px; }
-
-.texto {
-  margin-top: 5px;
-  text-shadow: 2px 0 0 #3B2719, -2px 0 0 #3B2719, 0 2px 0 #3B2719, 0 -2px 0 #3B2719, 1px 1px #3B2719, -1px -1px 0 #3B2719, 1px -1px 0 #3B2719, -1px 1px 0 #3B2719; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylemain.css.map */
